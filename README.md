@@ -1,5 +1,5 @@
 # Phylogenetic placement of *Hydrostachys* 
-Here are scripts used in the paper ['Re-examining the placement of *Hydrostachys* using a large-scale phylogenetic approach'](https://doi.org/10.1002/tax.13122)
+Here are scripts used in the TAXON paper ['Re-examining the placement of *Hydrostachys* using a large-scale phylogenetic approach'](https://doi.org/10.1002/tax.13122)
 ## Overview
 In this paper, we conducted a large-scale phylogenetic analysis based on nuclear and chloroplast data sets to reexamine the relationships of the genus and assess the data sources and methodological factors that may cause alternative placements.
 1. **Phylogenetic analysis based on nuclear genes.** We generated 12 *Hydrostachys* transcriptomes and designed a pipeline to recover the target sequences using 1KP single-copy nuclear gene data sets (downloaded from [1KP Github Pages](https://github.com/smirarab/1kp.git)) as references. We obtained an eudicot data set from the 1KP green plant data set, and kept only one sample for each genus. Then conducted phylogeny reconstruction based on three different data sets: amino acid sequences (AA), nucleotide sequences (NA), and nucleotide sequences without the third codon positions (C12).
